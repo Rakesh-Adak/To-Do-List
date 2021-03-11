@@ -1,0 +1,108 @@
+body{
+    background-color: #1b262c;
+    color: #fbf7f0;
+    font-family: 'Averia Serif Libre';
+    font-size: 1.1rem;
+}
+
+.container{
+    color: #1b262c;
+    margin-top: 40px;
+}
+
+.nav-item:hover{
+    background-color: #3f3f44;
+    transition: 0.3s;
+    color:white;
+}
+
+th, td, tbody, tfoot,  thead, tr{
+    color: #fbf7f0;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-color: #fff;
+    border-width: 0.5px;
+    white-space: nowrap;
+}
+
+h1{
+    margin: 5px;
+    font-size: 1.5rem;
+    
+}
+
+h2{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    
+}
+
+.btn1, .btn2{
+    border: 2px solid black;
+    padding: 10px 44px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: #54e346;
+    transition: 0.3s;
+
+}
+
+.btn2:hover{
+    background-color: #cf1b1b;
+    transition: 0.3s;
+
+}
+
+.btn3{
+    border: 2px solid black;    
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 3px;
+    border-radius: 6px;
+    cursor: pointer;   
+}
+
+.btn3:hover{
+    background-color: #cf1b1b;
+    transition: 0.3s;
+}
+
+
+.nav-link{
+    color: white;
+    margin-top: 3px;
+
+}
+.navbar-brand{
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #01024e;
+    color: yellow;
+}
+table{
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0.1px;
+}
+
+.form-floating{
+color: #aaaa;
+}
+
+hr.line1{
+    border: 2px solid white;
+}
+hr.line2{
+    border: 2px solid white;
+}
